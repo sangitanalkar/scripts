@@ -31,7 +31,8 @@ CLANG_VERSION="22.1.8"
 BAZEL_VERSION="8.8.1"
 GO_VERSION="1.25.0"
 LLVM_HOME_DIR="${SOURCE_ROOT}/clang/LLVM-${CLANG_VERSION}-Linux"
-PATCH_URL="https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/CI/Envoy/patch"
+PATCH_URL="https://raw.githubusercontent.com/sangitanalkar/scripts/envoy-ci-test/CI/Envoy/patch"
+
 
 # Pinned bazel-registry commit that matches the dependency versions used below.
 # Do not update this commit independently of the dep versions — they must stay in sync.
