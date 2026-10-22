@@ -1094,8 +1094,8 @@ else:
 # The upstream block only lists amd64/arm64/darwin — rules_go fails with
 # "unsupported platform linux_s390x" during analysis without this entry.
 _GO_S390X_LINE = (
-    '        "linux_s390x": ("go1.27.1.linux-s390x.tar.gz",'
-    ' "c9e1ad7bddea40e2eb10b4d3267ae06d462667839bf0ba94c2e2d160b06f9b9e"),\n'
+    '        "linux_s390x": ("go1.27.3.linux-s390x.tar.gz",'
+    ' "62e109a6280a073c9025e1b51ea298ec1d3575d3ce62238721311f5ff2c854e6"),\n'
 )
 _GO_ANCHOR = '        "darwin_amd64":'
 # Check specifically inside the go_sdk.download() block, not the whole file
